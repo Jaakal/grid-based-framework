@@ -1,7 +1,6 @@
-$col-sm-side-padding: 5px;
-$col-md-side-padding: 10px;
-$col-lg-side-padding: 10px;
-
+$col-sm-side-padding: 5;
+$col-md-side-padding: 10;
+$col-lg-side-padding: 10;
 
 .container {
     width: 100vw;
@@ -16,7 +15,7 @@ $col-lg-side-padding: 10px;
 @for $i from 1 through 12 {
     .col-sm-#{$i} {
         width: (100 / 12 * $i) + vw;
-        padding: 0 $col-sm-side-padding;    
+        padding: 0 $col-sm-side-padding + px;
     }
 }
 
@@ -35,7 +34,7 @@ $col-lg-side-padding: 10px;
     @for $i from 1 through 12 {
         .col-md-#{$i} {
             width: (100 / 12 * $i) + vw;
-            padding: 0 $col-md-side-padding;    
+            padding: 0 $col-md-side-padding + px;    
         }
     }
 
@@ -56,7 +55,7 @@ $col-lg-side-padding: 10px;
     @for $i from 1 through 12 {
         .col-lg-#{$i} {
             width: (100 / 12 * $i) + vw;
-            padding: 0 $col-lg-side-padding;    
+            padding: 0 $col-lg-side-padding + px;    
         }
     }
 
@@ -66,4 +65,3 @@ $col-lg-side-padding: 10px;
         }
     }
 }
-
