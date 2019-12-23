@@ -20,6 +20,12 @@ $col-lg-side-padding: 10px;
     }
 }
 
+@for $i from 1 through 11 {
+    .offset-col-sm-#{$i} {
+        margin-left: ((100 / 12 + $col-sm-side-padding * 2) * $i) + vw;   
+    }
+}
+
 @media screen and(min-width: 720px) {
     .container {
         width: 100vw;
@@ -30,6 +36,12 @@ $col-lg-side-padding: 10px;
         .col-md-#{$i} {
             width: (100 / 12 * $i) + vw;
             padding: 0 $col-md-side-padding;    
+        }
+    }
+
+    @for $i from 1 through 11 {
+        .offset-col-md-#{$i} {
+            margin-left: ((100 / 12 + $col-md-side-padding * 2) * $i) + vw;   
         }
     }
 }
@@ -45,6 +57,12 @@ $col-lg-side-padding: 10px;
         .col-lg-#{$i} {
             width: (100 / 12 * $i) + vw;
             padding: 0 $col-lg-side-padding;    
+        }
+    }
+
+    @for $i from 1 through 11 {
+        .offset-col-lg-#{$i} {
+            margin-left: ((100 / 12 + $col-lg-side-padding * 2) * $i) + vw;   
         }
     }
 }

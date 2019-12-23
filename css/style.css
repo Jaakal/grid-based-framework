@@ -68,6 +68,50 @@
   padding: 0 5px;
 }
 
+.offset-col-sm-1 {
+  margin-left: 18.33333pxvw;
+}
+
+.offset-col-sm-2 {
+  margin-left: 36.66667pxvw;
+}
+
+.offset-col-sm-3 {
+  margin-left: 55pxvw;
+}
+
+.offset-col-sm-4 {
+  margin-left: 73.33333pxvw;
+}
+
+.offset-col-sm-5 {
+  margin-left: 91.66667pxvw;
+}
+
+.offset-col-sm-6 {
+  margin-left: 110pxvw;
+}
+
+.offset-col-sm-7 {
+  margin-left: 128.33333pxvw;
+}
+
+.offset-col-sm-8 {
+  margin-left: 146.66667pxvw;
+}
+
+.offset-col-sm-9 {
+  margin-left: 165pxvw;
+}
+
+.offset-col-sm-10 {
+  margin-left: 183.33333pxvw;
+}
+
+.offset-col-sm-11 {
+  margin-left: 201.66667pxvw;
+}
+
 @media screen and (min-width: 720px) {
   .container {
     width: 100vw;
@@ -120,6 +164,39 @@
   .col-md-12 {
     width: 100vw;
     padding: 0 10px;
+  }
+  .offset-col-md-1 {
+    margin-left: 28.33333pxvw;
+  }
+  .offset-col-md-2 {
+    margin-left: 56.66667pxvw;
+  }
+  .offset-col-md-3 {
+    margin-left: 85pxvw;
+  }
+  .offset-col-md-4 {
+    margin-left: 113.33333pxvw;
+  }
+  .offset-col-md-5 {
+    margin-left: 141.66667pxvw;
+  }
+  .offset-col-md-6 {
+    margin-left: 170pxvw;
+  }
+  .offset-col-md-7 {
+    margin-left: 198.33333pxvw;
+  }
+  .offset-col-md-8 {
+    margin-left: 226.66667pxvw;
+  }
+  .offset-col-md-9 {
+    margin-left: 255pxvw;
+  }
+  .offset-col-md-10 {
+    margin-left: 283.33333pxvw;
+  }
+  .offset-col-md-11 {
+    margin-left: 311.66667pxvw;
   }
 }
 
@@ -176,6 +253,39 @@
   .col-lg-12 {
     width: 100vw;
     padding: 0 10px;
+  }
+  .offset-col-lg-1 {
+    margin-left: 28.33333pxvw;
+  }
+  .offset-col-lg-2 {
+    margin-left: 56.66667pxvw;
+  }
+  .offset-col-lg-3 {
+    margin-left: 85pxvw;
+  }
+  .offset-col-lg-4 {
+    margin-left: 113.33333pxvw;
+  }
+  .offset-col-lg-5 {
+    margin-left: 141.66667pxvw;
+  }
+  .offset-col-lg-6 {
+    margin-left: 170pxvw;
+  }
+  .offset-col-lg-7 {
+    margin-left: 198.33333pxvw;
+  }
+  .offset-col-lg-8 {
+    margin-left: 226.66667pxvw;
+  }
+  .offset-col-lg-9 {
+    margin-left: 255pxvw;
+  }
+  .offset-col-lg-10 {
+    margin-left: 283.33333pxvw;
+  }
+  .offset-col-lg-11 {
+    margin-left: 311.66667pxvw;
   }
 }
 /*# sourceMappingURL=style.css.map */
