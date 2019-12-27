@@ -37,37 +37,13 @@ The possible classes for this container are:
 
 The grid can be created by nesting **columns** inside **row** elements. For the columns all the possible classes are:
 - ***col***
-    - **-sm** Or **-md** Or **-lg** *(optional)*
-        - **-0**
-        - **-1**
-        - **-2**
-        - **-3**
-        - **-4**
-        - **-5**
-        - **-6**
-        - **-7**
-        - **-8**
-        - **-9**
-        - **-10**
-        - **-11**
-        - **-12**
+    - **-sm** or **-md** Or **-lg** *(optional)*
+        - **-0** or **-1** or **-2** ... **-12**
 
 The offset property takes works by taking the space of a column with the specified size moving everything else to the right. Its clases are similar to the ones used for **columns**:
 - ***offset***
-    - **-sm** Or **-md** Or **-lg** *(optional)*
-        - **-0**
-        - **-1**
-        - **-2**
-        - **-3**
-        - **-4**
-        - **-5**
-        - **-6**
-        - **-7**
-        - **-8**
-        - **-9**
-        - **-10**
-        - **-11**
-        - **-12**
+    - **-sm** or **-md** or **-lg** *(optional)*
+        - **-0** or **-1** or **-2** ... **-12**
 
 ## Built With
 
