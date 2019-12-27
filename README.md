@@ -1,4 +1,4 @@
-# Project Title
+# Grid based framework
 
 One Paragraph of project description goes here
 
